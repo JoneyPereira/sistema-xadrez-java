@@ -1,6 +1,5 @@
 package com.redua;
-
-import java.util.Scanner;
+import com.redua.boardgame.Position;
 
 /**
  * Hello world!
@@ -11,10 +10,13 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Digite sua mensagem:");
-        String msg = sc.nextLine();
-        System.out.println("A sua mensagem: " + msg);
-       sc.close();
+        
+        Position pos = new Position();
+        pos.setRow(4);
+        pos.setColumn(5);
+
+        System.out.println("A posição é: " + pos);
+
+
     }
 }
