@@ -1,5 +1,5 @@
 package com.redua;
-import com.redua.boardgame.Board;
+import com.redua.chess.ChessMatch;
 
 /**
  * Hello world!
@@ -9,7 +9,8 @@ public class App
 {
     public static void main( String[] args )
     {        
-        Board board = new Board(8,8);
+        ChessMatch chessMatch = new ChessMatch();
+        UI.printBoad(chessMatch.getPiece());
 
 
     }
