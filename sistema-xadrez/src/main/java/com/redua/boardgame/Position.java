@@ -17,5 +17,9 @@ public class Position {
         return row + " , " + column;
 
     }
-    
+
+    public Position(int row, int column) {
+        this.row = row;
+        this.column = column;
+    }   
 }

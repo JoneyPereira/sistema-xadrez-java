@@ -11,8 +11,5 @@ public class App
     {        
         ChessMatch chessMatch = new ChessMatch();
         UI.printBoad(chessMatch.getPiece());
-
-
-
     }
 }
